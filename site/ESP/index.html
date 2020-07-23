@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP</title>
+    <script src="../Javascript/ESP.js"></script>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/ESP.css">
+</head>
+<body>
+    <h1 id="title">Welcome to ESP</h1>
+    <hr id="seperator">
+
+    <div class="nav">
+        <button  class="navbutton" id = "homepageButton" onclick="location.href = '../';">Homepage</button>
+        <button  class="navbutton" id = "ESPButton" onclick="location.href = '../ESP/';">ESP</button>
+        <button  class="navbutton" id = "PokerRulesButton" onclick="location.href = '../PokerRules/';">PokerRules</button>
+    </div>
+
+    <h2 class="rules">The dealer has the cards A, B, C, D &E, he will put them in an order, you and the computer have to try to guess the order. Who has the most correct cards wins.</h2>
+
+    <div class="buttonPart">
+        <h1>Let's start</h1>
+        <button class="button" id="DealButton">Start</button>
+    </div>
+    <div class="dealer">
+        <h1>Dealers cards:</h1>
+        <h2 id="orderDealer"></h1>
+    </div>
+    <div class=container>
+        <div class="computer">
+            <h1>Computers cards:</h1>
+            <h2 id="orderComputer"></h1>
+        </div>
+        <div class="player">
+            <h1>Your choice:</h1>
+            <input type="text" id="orderPlayer"/>
+        
+        </div>
+        <div class="resultcomputer">
+            <h1>Computers results:</h1>
+            <h2 id="resultComputer"></h1>
+        </div>
+        <div class="resultplayer">
+            <h1>Players results:</h1>
+            <h2 id="resultPlayer"></h1>
+        </div>
+    </div>
+</body>
+</html>
