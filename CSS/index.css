@@ -43,20 +43,22 @@ title{
     text-align: center;
 }
 
-@media (max-width: 480px) {
-    .output {
+@media (max-width: 700px) {
+    #outputdiv{
         text-align: left;
         margin-top: 2%;
         margin-bottom: 5%;
-        margin-left:5% ;
-        border: 4px solid red;
+        margin-left:5px;
+        margin-right: 5px;
+        border: 4px solid black;
     }
 }
-@media (min-width: 481px) {
-    .output{
+@media (min-width: 701px) {
+    #outputdiv{
         text-align: left;
         margin-top: 2%;
         margin-bottom: 5%;
-        margin-left:35% ;
-        border: 4px solid red;
+        margin-left:33%;
+        margin-right: 33%;
+        border: 4px solid black;
     }
