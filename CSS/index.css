@@ -32,8 +32,8 @@ title{
 
 .gamelist{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(365px, 1fr));
-    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-gap: 30px;
 }
 .game{
     text-align: left;
@@ -47,7 +47,7 @@ title{
     #outputdiv{
         text-align: left;
         margin-top: 2%;
-        margin-bottom: 5%;
+        margin-bottom: 2%;
         margin-left:5px;
         margin-right: 5px;
         border: 4px solid black;
@@ -57,7 +57,7 @@ title{
     #outputdiv{
         text-align: left;
         margin-top: 2%;
-        margin-bottom: 5%;
+        margin-bottom: 2%;
         margin-left:33%;
         margin-right: 33%;
         border: 4px solid black;
