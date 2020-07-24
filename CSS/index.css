@@ -29,17 +29,10 @@ title{
     border-color:rgb(240, 73, 73);
     color: white;
 }
-.output{
-    text-align: left;
-    margin-top: 2%;
-    margin-left: 35%;
-    margin-bottom: 5%;
-    margin-right: 35%;
-    border: 4px solid black;
-}
+
 .gamelist{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
     grid-gap: 10px;
 }
 .game{
@@ -49,3 +42,12 @@ title{
 .gametitle{
     text-align: center;
 }
+
+@media (max-width: 480px) {
+    .output {
+        text-align: left;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left:5% ;
+        border: 4px solid black;
+    }
