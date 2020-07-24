@@ -32,7 +32,7 @@ title{
 
 .gamelist{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
     grid-gap: 10px;
 }
 .game{
@@ -49,5 +49,14 @@ title{
         margin-top: 2%;
         margin-bottom: 5%;
         margin-left:5% ;
+        border: 4px solid black;
+    }
+}
+@media (min-width: 481px) {
+    .output{
+        text-align: left;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left:35% ;
         border: 4px solid black;
     }
