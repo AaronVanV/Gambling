@@ -25,7 +25,7 @@ window.onload = function(){
         RandomNumberGenerator();
         GetGame();
         duplicate();
-        document.getElementById("outputdiv").style.borderColor = "Black";
+        document.getElementById("outputdiv").style.borderColor = "Red";
         
     
     }
